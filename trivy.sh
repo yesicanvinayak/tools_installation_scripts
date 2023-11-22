@@ -1,4 +1,9 @@
-# A Simple and Comprehensive Vulnerability Scanner for Containers and other Artifacts, Suitable for CI.
+###########################################################################
+# Script: trivy.sh
+# Purpose: A Simple and Comprehensive Vulnerability Scanner for Containers and other Artifacts, Suitable for CI.
+# Auther: Vinayak Salunke 
+# Date: 25-7-2023
+###########################################################################
 
 sudo apt-get install wget apt-transport-https gnupg lsb-release
 wget -qO - https://aquasecurity.github.io/trivy-repo/deb/public.key | sudo apt-key add -
