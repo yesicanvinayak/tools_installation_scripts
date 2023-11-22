@@ -1,4 +1,9 @@
-##Install in Amazon Ubuntu
+###########################################################################
+# Script: docker.sh
+# Purpose: Install Docker
+# Auther: Vinayak Salunke 
+# Date: 25-7-2023
+###########################################################################
 #!/bin/bash
 sudo apt update -y
 
@@ -13,7 +18,5 @@ sudo apt update -y
 apt-cache policy docker-ce -y
 
 sudo apt install docker-ce -y
-
-#sudo systemctl status docker
 
 sudo chmod 777 /var/run/docker.sock
