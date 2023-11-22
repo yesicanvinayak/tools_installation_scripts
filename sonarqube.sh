@@ -1,1 +1,7 @@
- docker run -d --name sonarqube -p 9000:9000 -p 9092:9092 sonarqube
+###########################################################################
+# Script: sonarqube.sh
+# Purpose: sonarqube run
+# Auther: Vinayak Salunke 
+# Date: 25-7-2023
+###########################################################################
+docker run -d --name sonarqube -p 9000:9000 -p 9092:9092 sonarqube
