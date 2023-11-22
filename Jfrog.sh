@@ -4,8 +4,8 @@
 # Auther: Vinayak Salunke 
 # Date: 25-7-2023
 ###########################################################################
+#!/bin/bash
 
-##Install in Amazon Ubuntu
 sudo usermod -aG docker $USER
 docker pull docker.bintray.io/jfrog/artifactory-oss:latest
 sudo mkdir -p /jfrog/artifactory
