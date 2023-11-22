@@ -1,6 +1,6 @@
 ###########################################################################
 # Script: sonarqube.sh
-# Purpose: sonarqube run
+# Purpose: sonarqube run using docker-container
 # Auther: Vinayak Salunke 
 # Date: 25-7-2023
 ###########################################################################
