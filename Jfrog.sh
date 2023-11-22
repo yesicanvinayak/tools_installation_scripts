@@ -1,3 +1,10 @@
+###########################################################################
+# Script: Jfrog.sh
+# Purpose: Install in Amazon Ubuntu
+# Auther: Vinayak Salunke 
+# Date: 25-7-2023
+###########################################################################
+
 ##Install in Amazon Ubuntu
 sudo usermod -aG docker $USER
 docker pull docker.bintray.io/jfrog/artifactory-oss:latest
